@@ -12,6 +12,13 @@ When you want to switch songs, press the "Play/Pause" media key on your keyboard
 
 The packed extension is YoutubeMediaKeys.crx
 
+To install this extension:
+ - Download the extension file and save it to your computer.
+ - Click the settings icon on the browser toolbar (icon on the right side of the toolbar).
+ - Select Tools > Extensions.
+ - Find the extension file on your computer and drag the file onto the Extensions page.
+ - Click Install.
+
 Author
 -------
 
