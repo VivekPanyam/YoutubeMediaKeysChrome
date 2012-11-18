@@ -1,0 +1,24 @@
+{
+  "name": "YouTube Media Keys",
+  "manifest_version": 2,
+  "version": "0.1",
+  "description": "Media Keys for YouTube",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "permissions": [
+	"tabs",
+	"webNavigation",
+	"*://*/*"
+  ],
+  "content_scripts": [
+	{
+	"matches": ["<all_urls>"],
+	"js": ["inject.js"]
+	},
+	{
+	"matches": ["*://www.youtube.com/*", "*://youtube.com/*"],
+	"js": ["ytinject.js"]
+	}
+  ]
+}
